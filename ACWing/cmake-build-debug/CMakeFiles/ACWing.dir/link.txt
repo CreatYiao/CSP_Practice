@@ -1,0 +1,3 @@
+"F:\Clion 2022_3\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ACWing.dir/objects.a
+E:\MinGW\bin\ar.exe qc CMakeFiles\ACWing.dir/objects.a @CMakeFiles\ACWing.dir\objects1.rsp
+E:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ACWing.dir/objects.a -Wl,--no-whole-archive -o ACWing.exe -Wl,--out-implib,libACWing.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ACWing.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"F:\Clion 2022_3\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\202209.dir/objects.a
+E:\MinGW\bin\ar.exe qc CMakeFiles\202209.dir/objects.a @CMakeFiles\202209.dir\objects1.rsp
+E:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\202209.dir/objects.a -Wl,--no-whole-archive -o 202209.exe -Wl,--out-implib,lib202209.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\202209.dir\linklibs.rsp
